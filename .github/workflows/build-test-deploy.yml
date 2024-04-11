@@ -10,7 +10,7 @@ jobs:
       - name: Use node Js
         uses: actions/checkout/@v3
         with: 
-          node-version: '18.x'
+          node-version: '20'
       - run: npm install
       - run : npm run build
       
